@@ -6,7 +6,7 @@ from src.deadlined_reminders import DeadlinedReminder
 # sys.path.append("c:\\Users\\xinmwu\\Documents\\GitHub\\python-build-cli-planner-app")
 
 
-from src.deadlined_reminders import DateReminder
+
 
 def list_reminders():
     f = open("reminders.csv", "r")
