@@ -5,7 +5,7 @@ from src.deadlined_reminders import DeadlinedReminder
 # import sys
 # sys.path.append("c:\\Users\\xinmwu\\Documents\\GitHub\\python-build-cli-planner-app")
 
-from src.reminder import PoliteReminder
+
 from src.deadlined_reminders import DateReminder
 
 def list_reminders():
