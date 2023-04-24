@@ -1,5 +1,5 @@
 from src.database import add_reminder, list_reminders
-from src.deadlined_reminder import DateReminder, DeadlinedReminder
+from src.deadlined_reminders import DateReminder, DeadlinedReminder
 from src.external_reminders import EveningReminder
 
 from src.reminder import PoliteReminder
@@ -13,6 +13,7 @@ def handle_input():
 
     if(choice == "1"):
         list_reminders()
+        
 
     elif(choice == "2"):
         print()
